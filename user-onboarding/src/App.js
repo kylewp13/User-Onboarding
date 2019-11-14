@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import Form from '../components/Form'
+import UserForm from './components/Form'
+import FormikUserForm from './components/UserForm'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <h3>using Formik</h3>
+      <UserForm />
+      <h3>usign withFormik</h3>
+      <FormikUserForm />
     </div>
   );
 }
